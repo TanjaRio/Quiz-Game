@@ -22,4 +22,28 @@ public class SubCategory {
 
     @OneToMany
     private List<SubSubCategory> subSubCategoryList;
+
+    public String getSubCategoryName() {
+        return subCategoryName;
+    }
+
+    public void setSubCategoryName(String subCategoryName) {
+        this.subCategoryName = subCategoryName;
+    }
+
+    public RootCategory getRootCategory() {
+        return rootCategory;
+    }
+
+    public void setRootCategory(RootCategory rootCategory) {
+        this.rootCategory = rootCategory;
+    }
+
+    public List<SubSubCategory> getSubSubCategoryList() {
+        return subSubCategoryList;
+    }
+
+    public void setSubSubCategoryList(List<SubSubCategory> subSubCategoryList) {
+        this.subSubCategoryList = subSubCategoryList;
+    }
 }

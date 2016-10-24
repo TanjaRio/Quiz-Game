@@ -4,6 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -22,4 +23,35 @@ public class SubSubCategory {
 
     @OneToMany
     private List<QuizEntity> quizEntities;
+
+    public SubSubCategory() {}
+
+    public SubSubCategory(String subSubCategoryName) {
+        this.subSubCategoryName = subSubCategoryName;
+        this.quizEntities = new ArrayList<>();
+    }
+
+    public String getSubSubCategoryName() {
+        return subSubCategoryName;
+    }
+
+    public void setSubSubCategoryName(String subSubCategoryName) {
+        this.subSubCategoryName = subSubCategoryName;
+    }
+
+    public SubSubCategory getSubCategory() {
+        return subCategory;
+    }
+
+    public void setSubCategory(SubSubCategory subCategory) {
+        this.subCategory = subCategory;
+    }
+
+    public List<QuizEntity> getQuizEntities() {
+        return quizEntities;
+    }
+
+    public void setQuizEntities(List<QuizEntity> quizEntities) {
+        this.quizEntities = quizEntities;
+    }
 }
