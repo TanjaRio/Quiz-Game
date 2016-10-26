@@ -4,6 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 /**
@@ -16,8 +17,8 @@ public class RootCategory {
     @Id
     private String categoryName;
 
-    @OneToMany
-    List<SubCategory> subCategoryList;
+    @OneToMany//(mappedBy = "rootCategory")
+    Collection<SubCategory> subCategoryList;
 
     public RootCategory() {}
 
@@ -34,11 +35,11 @@ public class RootCategory {
         this.categoryName = categoryName;
     }
 
-    public List<SubCategory> getSubCategoryList() {
+    public Collection<SubCategory> getSubCategoryList() {
         return subCategoryList;
     }
 
-    public void setSubCategoryList(List<SubCategory> subCategoryList) {
+    public void setSubCategoryList(Collection<SubCategory> subCategoryList) {
         this.subCategoryList = subCategoryList;
     }
 }

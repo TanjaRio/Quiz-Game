@@ -1,12 +1,14 @@
 package ejb;
 
 import entity.QuizEntity;
+import entity.RootCategory;
 import entity.SubSubCategory;
 
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.Query;
 import java.util.List;
 
 /**
@@ -37,6 +39,25 @@ public class QuizEJB {
             return true;
         }
 
+        return false;
+    }
+
+    public QuizEntity findQuiz(Long quizId) {
+        QuizEntity quizEntity = em.find(QuizEntity.class, quizId);
+        return quizEntity;
+    }
+
+    public List<QuizEntity> getAll(){
+        Query query = em.createQuery("select q from QuizEntity q");
+        return query.getResultList();
+    }
+
+    public boolean deleteQuizEntity(Long quizId){
+        QuizEntity quizEntity = em.find(QuizEntity.class, quizId);
+        if(quizEntity != null){
+            em.remove(quizEntity);
+            return true;
+        }
         return false;
     }
 }

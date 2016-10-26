@@ -6,7 +6,7 @@
     <artifactId>myQuizGame</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>Root module for PG6100 examples</name>
+    <name>Root module for Quiz game</name>
 
 
     <modules>

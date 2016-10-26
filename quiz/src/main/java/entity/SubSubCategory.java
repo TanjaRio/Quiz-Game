@@ -19,9 +19,9 @@ public class SubSubCategory {
     private String subSubCategoryName;
 
     @ManyToOne
-    private SubSubCategory subCategory;
+    private SubCategory subCategory;
 
-    @OneToMany
+    @OneToMany//(mappedBy = "subSubCategory")
     private List<QuizEntity> quizEntities;
 
     public SubSubCategory() {}
@@ -39,19 +39,19 @@ public class SubSubCategory {
         this.subSubCategoryName = subSubCategoryName;
     }
 
-    public SubSubCategory getSubCategory() {
-        return subCategory;
-    }
-
-    public void setSubCategory(SubSubCategory subCategory) {
-        this.subCategory = subCategory;
-    }
-
     public List<QuizEntity> getQuizEntities() {
         return quizEntities;
     }
 
     public void setQuizEntities(List<QuizEntity> quizEntities) {
         this.quizEntities = quizEntities;
+    }
+
+    public SubCategory getSubCategory() {
+        return subCategory;
+    }
+
+    public void setSubCategory(SubCategory subCategory) {
+        this.subCategory = subCategory;
     }
 }

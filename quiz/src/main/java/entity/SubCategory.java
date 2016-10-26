@@ -20,8 +20,10 @@ public class SubCategory {
     @ManyToOne
     private RootCategory rootCategory;
 
-    @OneToMany
+    @OneToMany//(mappedBy = "subCategory")
     private List<SubSubCategory> subSubCategoryList;
+
+    public SubCategory() {}
 
     public String getSubCategoryName() {
         return subCategoryName;

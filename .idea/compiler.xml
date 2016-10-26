@@ -22,14 +22,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="restApi" />
-      </profile>
-      <profile default="false" name="Annotation profile for quiz" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
         <module name="quiz" />
+        <module name="restApi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
