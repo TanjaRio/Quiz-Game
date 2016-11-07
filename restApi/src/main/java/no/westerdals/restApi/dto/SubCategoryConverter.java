@@ -1,6 +1,7 @@
 package no.westerdals.restApi.dto;
 
 import no.westerdals.quiz.entity.RootCategory;
+import no.westerdals.quiz.entity.SubCategory;
 
 import java.util.List;
 import java.util.Objects;
@@ -11,22 +12,19 @@ import java.util.stream.Collectors;
  * PG5100 - Enterprise Programmering 1
  * Westerdals Oslo ACT
  */
-public class CategoryConverter {
-    public static CategoryDto transform(RootCategory entity){
+public class SubCategoryConverter {
+    public static SubCategoryDto transform(SubCategory entity){
         Objects.requireNonNull(entity);
 
-        CategoryDto dto = new CategoryDto();
-        dto.categoryName = entity.getCategoryName();
-        dto.subCategoryList = entity.getSubCategoryList();
+        SubCategoryDto dto = new SubCategoryDto();
+        dto.subCategoryName = entity.getSubCategoryName();
+        dto.rootCategory = entity.getRootCategory();
+        dto.subSubCategoryList = entity.getSubSubCategoryList();
         return dto;
     }
 
     public static List<CategoryDto> transform(List<CategoryDto> entities){
         Objects.requireNonNull(entities);
-
-        for (int i = 0; i < entities.size(); i++) {
-            CategoryConverter.transform(entities.get(i));
-        }
 
         return entities.stream()
                 .map(CategoryDto::transform)

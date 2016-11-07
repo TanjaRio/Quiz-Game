@@ -73,4 +73,12 @@ public class QuizEntity {
     public void setCorrectAnswer(String correctAnswer) {
         this.correctAnswer = correctAnswer;
     }
+
+    public boolean isCorrectAnswer() {
+        return isCorrectAnswer;
+    }
+
+    public void setCorrectAnswer(boolean correctAnswer) {
+        isCorrectAnswer = correctAnswer;
+    }
 }

@@ -2,169 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5128782f-83fa-49d1-bee5-c44d5394bd10" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/fonts/DroidSans-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/fonts/DroidSans.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/images/collapse.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/images/expand.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/images/explorer_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/images/favicon-16x16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/images/favicon-32x32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/images/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/images/logo_small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/images/pet_store_api.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/images/throbber.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/images/wordnik_api.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/arquillianContainers.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/restApi_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/restApi_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_2_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_4_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_4_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_4_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_4_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_joda_2_4_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_base_2_4_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_json_provider_2_4_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_4_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_annotations_2_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_5_7_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_json_path_3_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_3_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_common_3_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_xml_path_3_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_core_1_5_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_hibernate_validations_1_5_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_jaxrs_1_5_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_18.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_21.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_neko_htmlunit_2_21.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ccil_cowan_tagsoup_tagsoup_1_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_json_2_4_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_xml_2_4_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_2_15_v20160210.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_2_15_v20160210.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_2_15_v20160210.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_2_15_v20160210.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_2_15_v20160210.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_19_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_client_3_1_0_CR2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jaxrs_3_1_0_CR2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_annotation_jboss_annotations_api_1_2_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_ws_rs_jboss_jaxrs_api_2_0_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_htmlunit_driver_2_21.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_2_53_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_53_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_2_53_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_53_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_2_53_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_2_53_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_leg_rc_2_53_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_53_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_2_53_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_2_53_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_serializer_2_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quiz/src/main/resources/META-INF/persistence.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/ApplicationConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/CategoryConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/CategoryDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/QuizConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/QuizDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/WEB-INF/jboss-web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/css/print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/css/screen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/css/typography.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lang/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lang/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lang/geo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lang/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lang/ko-kr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lang/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lang/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lang/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lang/translator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lib/backbone-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lib/es5-shim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lib/handlebars-4.0.5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lib/highlight.9.1.0.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lib/highlight.9.1.0.pack_extended.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lib/jquery-1.8.0.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lib/jquery.ba-bbq.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lib/jquery.slideto.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lib/jquery.wiggle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lib/js-yaml.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lib/jsoneditor.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lib/lodash.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lib/marked.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lib/object-assign-pollyfill.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lib/sanitize-html.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/lib/swagger-oauth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/o2c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/swagger-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/webapp/swagger-ui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/src/test/java/no.westerdals.utils.web/HttpUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/src/test/java/no.westerdals.utils.web/JBossUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/src/test/java/no.westerdals.utils.web/WebTestBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/utils.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quiz/src/main/java/ejb/QuizEJB.java" afterPath="$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/ejb/QuizEJB.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quiz/src/main/java/ejb/RootCategoryEJB.java" afterPath="$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/ejb/RootCategoryEJB.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quiz/src/main/java/ejb/SubCategoryEJB.java" afterPath="$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/ejb/SubCategoryEJB.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quiz/src/main/java/ejb/SubSubCategoryEJB.java" afterPath="$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/ejb/SubSubCategoryEJB.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quiz/src/main/java/entity/QuizEntity.java" afterPath="$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/entity/QuizEntity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quiz/src/main/java/entity/RootCategory.java" afterPath="$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/entity/RootCategory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quiz/src/main/java/entity/SubCategory.java" afterPath="$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/entity/SubCategory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quiz/src/main/java/entity/SubSubCategory.java" afterPath="$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/entity/SubSubCategory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quiz/src/test/java/QuizEJBTest.java" afterPath="$PROJECT_DIR$/quiz/src/test/java/no/westerdals/quiz/QuizEJBTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quiz/src/test/java/RootCategoryEJBTest.java" afterPath="$PROJECT_DIR$/quiz/src/test/java/no/westerdals/quiz/RootCategoryEJBTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quiz/src/test/java/SubCategoryEJBTest.java" afterPath="$PROJECT_DIR$/quiz/src/test/java/no/westerdals/quiz/SubCategoryEJBTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quiz/src/test/java/SubSubCategoryEJBTest.java" afterPath="$PROJECT_DIR$/quiz/src/test/java/no/westerdals/quiz/SubSubCategoryEJBTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/ObjectMapperContextResolver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/api/CategoriesRestApi.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/api/CategoriesRestImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/api/Formats.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/api/SubcategoriesRestApi.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/api/SubsubcategoriesRestApi.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/SubCategoryConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/SubCategoryDto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/SubSubCategoryConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/SubSubCategoryDto.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quiz/quiz.iml" afterPath="$PROJECT_DIR$/quiz/quiz.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/restApi/pom.xml" afterPath="$PROJECT_DIR$/restApi/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/restApi/restApi.iml" afterPath="$PROJECT_DIR$/restApi/restApi.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/entity/QuizEntity.java" afterPath="$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/entity/QuizEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/CategoryConverter.java" afterPath="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/CategoryConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/CategoryDto.java" afterPath="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/CategoryDto.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/QuizConverter.java" afterPath="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/QuizConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/QuizDto.java" afterPath="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/QuizDto.java" />
     </list>
     <ignored path="MyQuizGame.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -191,21 +44,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RootCategoryEJB.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/ejb/RootCategoryEJB.java">
+      <file leaf-file-name="QuizConverter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/QuizConverter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuizEJBTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quiz/src/test/java/no/westerdals/quiz/QuizEJBTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
+              <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -213,11 +56,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApplicationConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/ApplicationConfig.java">
+      <file leaf-file-name="CategoriesRestApi.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/api/CategoriesRestApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7574257">
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategoriesRestImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/api/CategoriesRestImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -229,19 +84,27 @@
         <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/CategoryDto.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CategoryConverter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Formats.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/api/Formats.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategoryConverter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/CategoryConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.71524286">
-              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -249,42 +112,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RootCategoryEJBTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quiz/src/test/java/no/westerdals/quiz/RootCategoryEJBTest.java">
+      <file leaf-file-name="SubcategoriesRestApi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/api/SubcategoriesRestApi.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="74" column="65" selection-start-line="74" selection-start-column="65" selection-end-line="74" selection-end-column="65" />
-              <folding />
+              <caret line="12" column="96" selection-start-line="12" selection-start-column="96" selection-end-line="12" selection-end-column="96" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RootCategory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/entity/RootCategory.java">
+      <file leaf-file-name="SubsubcategoriesRestApi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/api/SubsubcategoriesRestApi.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding />
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="34" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuizEJB.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/ejb/QuizEJB.java">
+      <file leaf-file-name="SubSubCategoryConverter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/SubSubCategoryConverter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-              <folding />
+              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SubSubCategory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/entity/SubSubCategory.java">
+      <file leaf-file-name="SubSubCategoryDto.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/SubSubCategoryDto.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
-              <folding />
+              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -330,14 +201,26 @@
         <option value="$PROJECT_DIR$/restApi/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/quiz/src/test/java/no/westerdals/quiz/SubSubCategoryEJBTest.java" />
         <option value="$PROJECT_DIR$/quiz/src/test/java/no/westerdals/quiz/SubCategoryEJBTest.java" />
-        <option value="$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/entity/QuizEntity.java" />
         <option value="$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/ejb/QuizEJB.java" />
         <option value="$PROJECT_DIR$/quiz/src/test/java/no/westerdals/quiz/QuizEJBTest.java" />
         <option value="$PROJECT_DIR$/quiz/src/test/java/no/westerdals/quiz/RootCategoryEJBTest.java" />
         <option value="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/ApplicationConfig.java" />
         <option value="$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/entity/RootCategory.java" />
+        <option value="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/ObjectMapperContextResolver.java" />
+        <option value="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/QuizDto.java" />
+        <option value="$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/entity/QuizEntity.java" />
+        <option value="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/QuizConverter.java" />
+        <option value="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/SubCategoryDto.java" />
+        <option value="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/SubCategoryConverter.java" />
+        <option value="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/SubSubCategoryDto.java" />
+        <option value="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/SubSubCategoryConverter.java" />
+        <option value="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/api/Formats.java" />
+        <option value="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/api/SubcategoriesRestApi.java" />
+        <option value="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/api/SubsubcategoriesRestApi.java" />
+        <option value="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/api/CategoriesRestImpl.java" />
         <option value="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/CategoryConverter.java" />
         <option value="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/CategoryDto.java" />
+        <option value="$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/api/CategoriesRestApi.java" />
       </list>
     </option>
   </component>
@@ -359,9 +242,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1370" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -418,20 +302,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyQuizGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyQuizGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="restApi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -451,10 +321,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -554,21 +420,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="quiz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyQuizGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyQuizGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quiz" />
+              <option name="myItemId" value="restApi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -576,29 +428,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyQuizGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyQuizGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quiz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -606,7 +436,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="restApi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyQuizGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyQuizGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="quiz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyQuizGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyQuizGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quiz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -629,14 +495,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -725,18 +583,18 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\developement\Enterprise Programmering\MyQuizGame\utils\src\test\java\no.westerdals.utils.web" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="no.westerdals.quiz" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\developement\Enterprise Programmering\MyQuizGame\restApi\src\main\java\no\westerdals\restApi\api" />
+      <recent name="C:\developement\Enterprise Programmering\MyQuizGame\restApi\src\main\java\no\westerdals\restApi" />
       <recent name="C:\developement\Enterprise Programmering\MyQuizGame\quiz\src\main" />
       <recent name="C:\developement\Enterprise Programmering\MyQuizGame\restApi\src\main\java\no\westerdals\restApi\dto" />
-      <recent name="C:\developement\Enterprise Programmering\MyQuizGame\restApi\src\main\java\no\westerdals\restApi" />
       <recent name="C:\developement\Enterprise Programmering\MyQuizGame\restApi\src\main" />
-      <recent name="C:\developement\Enterprise Programmering\MyQuizGame\utils" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\developement\Enterprise Programmering\MyQuizGame\utils\src\test\java\no.westerdals.utils.web" />
     </key>
   </component>
   <component name="RunManager" selected="Arquillian JUnit.Manual container configuration: QuizEJBTest">
@@ -1277,7 +1135,7 @@
       <workItem from="1477922056535" duration="572000" />
       <workItem from="1477962191039" duration="1376000" />
       <workItem from="1478159722180" duration="2182000" />
-      <workItem from="1478469972576" duration="452000" />
+      <workItem from="1478469972576" duration="4349000" />
     </task>
     <servers />
   </component>
@@ -1314,11 +1172,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25407000" />
+    <option name="totallyTimeSpent" value="29304000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1328,10 +1186,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.424" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2658789" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3023426" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1340,17 +1199,16 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0029282577" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.424" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1374,90 +1232,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/ejb/RootCategoryEJB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/entity/QuizEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/ejb/SubSubCategoryEJB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="64" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/ejb/QuizEJB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/src/test/java/no/westerdals/quiz/RootCategoryEJBTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/src/test/java/no/westerdals/quiz/SubCategoryEJBTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/src/test/java/no/westerdals/quiz/SubSubCategoryEJBTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/ejb/SubCategoryEJB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/entity/SubSubCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/entity/SubCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1534,7 +1308,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#792#793#0" expanded="false" />
+            <element signature="e#833#834#0" expanded="false" />
+            <element signature="e#901#902#0" expanded="false" />
+            <element signature="e#961#962#0" expanded="false" />
+            <element signature="e#1010#1011#0" expanded="false" />
+            <element signature="e#1045#1046#0" expanded="false" />
+            <element signature="e#1111#1112#0" expanded="false" />
+            <element signature="e#1159#1160#0" expanded="false" />
+            <element signature="e#1202#1203#0" expanded="false" />
+            <element signature="e#1236#1237#0" expanded="false" />
+            <element signature="e#1295#1296#0" expanded="false" />
+            <element signature="e#1341#1342#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1595,27 +1383,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/restApi/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.692307">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/QuizConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/QuizDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/restApi/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.076923">
@@ -1667,42 +1434,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/ejb/SubCategoryEJB.java">
+    <entry file="file://$PROJECT_DIR$/quiz/src/test/java/no/westerdals/quiz/RootCategoryEJBTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <caret line="74" column="65" selection-start-line="74" selection-start-column="65" selection-end-line="74" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz/src/test/java/no/westerdals/quiz/QuizEJBTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/ejb/SubSubCategoryEJB.java">
+    <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/ApplicationConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="e#1612#1613#0" expanded="false" />
+            <element signature="e#1636#1637#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restApi/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/QuizDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/entity/QuizEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+          <caret line="76" column="38" selection-start-line="76" selection-start-column="38" selection-end-line="76" selection-end-column="38" />
+          <folding>
+            <element signature="e#1680#1681#0" expanded="true" />
+            <element signature="e#1739#1740#0" expanded="true" />
+            <element signature="e#1786#1787#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/entity/SubCategory.java">
+    <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/ObjectMapperContextResolver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/entity/SubSubCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
           <folding />
         </state>
       </provider>
@@ -1715,34 +1517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/src/test/java/no/westerdals/quiz/RootCategoryEJBTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="74" column="65" selection-start-line="74" selection-start-column="65" selection-end-line="74" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/src/test/java/no/westerdals/quiz/QuizEJBTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/ApplicationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/ejb/RootCategoryEJB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1751,26 +1525,118 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/ejb/SubSubCategoryEJB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/entity/RootCategory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/function/Function.java">
+    <entry file="file://$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/ejb/SubCategoryEJB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/CategoryDto.java">
+    <entry file="file://$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/entity/SubCategory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/SubCategoryConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/SubCategoryDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz/src/main/java/no/westerdals/quiz/entity/SubSubCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/SubSubCategoryDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/SubSubCategoryConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/QuizConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/api/Formats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/api/SubcategoriesRestApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="96" selection-start-line="12" selection-start-column="96" selection-end-line="12" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/api/SubsubcategoriesRestApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="34" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1779,8 +1645,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/CategoryConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71524286">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/dto/CategoryDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/api/CategoriesRestImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restApi/src/main/java/no/westerdals/restApi/api/CategoriesRestApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7574257">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

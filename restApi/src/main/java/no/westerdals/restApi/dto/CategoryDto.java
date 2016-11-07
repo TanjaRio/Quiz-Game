@@ -28,5 +28,4 @@ public class CategoryDto {
         this.subCategoryList = subCategoryList;
     }
 
-
 }
