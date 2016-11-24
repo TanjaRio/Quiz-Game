@@ -2,8 +2,10 @@ package no.westerdals.quiz;
 
 import no.westerdals.quiz.ejb.QuizEJB;
 import no.westerdals.quiz.ejb.RootCategoryEJB;
+import no.westerdals.quiz.ejb.SubCategoryEJB;
 import no.westerdals.quiz.ejb.SubSubCategoryEJB;
 import no.westerdals.quiz.entity.RootCategory;
+import no.westerdals.quiz.entity.SubSubCategory;
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.junit.Arquillian;
 import org.jboss.shrinkwrap.api.ShrinkWrap;
@@ -32,11 +34,21 @@ public class RootCategoryEJBTest {
 
     @Inject
     private RootCategoryEJB rootCategoryEJB;
+    @Inject
+    private SubCategoryEJB subCategoryEJB;
+    @Inject
+    private SubSubCategoryEJB subSubCategoryEJB;
+    @Inject
+    private QuizEJB quizEJB;
+
 
     @Before
     @After
     public void cleanDatabase() {
-        rootCategoryEJB.getAll().stream().forEach(c -> rootCategoryEJB.deleteRootCategory(c.getCategoryName()));
+        quizEJB.getAll().stream().forEach(c -> quizEJB.deleteQuizEntity(c.getQuizId()));
+        subSubCategoryEJB.getAll().stream().forEach(c -> subSubCategoryEJB.deleteSubSubCategory(c.getId()));
+        subCategoryEJB.getAll().stream().forEach(c -> subCategoryEJB.deleteSubCategory(c.getId()));
+        rootCategoryEJB.getAll().stream().forEach(c -> rootCategoryEJB.deleteRootCategory(c.getId()));
         assertEquals(0, rootCategoryEJB.getAll().size());
     }
 
@@ -51,11 +63,10 @@ public class RootCategoryEJBTest {
         int n = rootCategoryEJB.getAll().size();
         assertEquals(0, n);
         String categoryName = "Computer Science";
-        String categoryCreatedName = rootCategoryEJB.createRootCategory(categoryName);
+        Long id = rootCategoryEJB.createRootCategory(categoryName);
 
         int updatedDB = rootCategoryEJB.getAll().size();
         assertEquals(1, updatedDB);
-        assertEquals(categoryCreatedName, categoryName);
     }
 
     @Test
@@ -63,14 +74,14 @@ public class RootCategoryEJBTest {
         int n = rootCategoryEJB.getAll().size();
         assertEquals(0, n);
         String categoryName = "Computer Science";
-        String categoryCreatedName = rootCategoryEJB.createRootCategory(categoryName);
+        Long id = rootCategoryEJB.createRootCategory(categoryName);
 
         int updatedDB = rootCategoryEJB.getAll().size();
         assertEquals(1, updatedDB);
-        assertEquals(categoryCreatedName, categoryName);
+        assertEquals(categoryName, rootCategoryEJB.findRootCategory(id).getCategoryName());
 
-        rootCategoryEJB.createRootCategory("Test2");
-        RootCategory rootCategory = rootCategoryEJB.findRootCategory(categoryName);
+        Long id2 = rootCategoryEJB.createRootCategory("Test2");
+        RootCategory rootCategory = rootCategoryEJB.findRootCategory(id2);
         assertEquals(2, rootCategoryEJB.getAll().size());
         assertTrue(rootCategoryEJB.getAll().contains(rootCategory));
 

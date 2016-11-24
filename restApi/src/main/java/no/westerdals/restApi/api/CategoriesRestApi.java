@@ -1,14 +1,11 @@
 package no.westerdals.restApi.api;
 
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
-import io.swagger.annotations.ApiParam;
+import io.swagger.annotations.*;
 import no.westerdals.restApi.dto.CategoryDto;
 
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
-import javax.ws.rs.QueryParam;
+import javax.ws.rs.*;
+import javax.ws.rs.core.Response;
+import java.net.URI;
 import java.util.List;
 
 /**
@@ -23,7 +20,44 @@ import java.util.List;
         Formats.BASE_JSON //old format
 })
 public interface CategoriesRestApi {
+    String ID_PARAM ="The numeric id of the news";
+
     @ApiOperation("Get all the categories")
     @GET
     List<CategoryDto> get();
+
+    @ApiOperation("Create a category")
+    @POST
+    @Consumes({Formats.V1_NEWS_JSON, Formats.BASE_JSON})
+    @Produces(Formats.BASE_JSON)
+    @ApiResponse(code = 200, message = "The id of newly created category")
+    Long createCategory(
+            @ApiParam("The name of the category, along with a list of subcategories belonging to it")
+                    CategoryDto dto);
+
+    @ApiOperation("Get a single category specified by id")
+    @GET
+    @Path("/{id}")
+    CategoryDto getCategory(
+            @ApiParam(ID_PARAM)
+            @PathParam("id")
+                    Long id);
+
+    //Deprecated version
+    @ApiOperation("Deprecated. Use \"/{id}\" instead")
+    @ApiResponses({
+            @ApiResponse(code = 301, message = "Deprecated URI. Moved permanently.")
+    })
+    @Path("/id/{id}")
+    @GET
+    @Deprecated
+    Response deprecatedGetById(
+            @ApiParam(ID_PARAM)
+            @PathParam("id")
+                    Long id);
+
+    @ApiOperation("Get a single category specified by id")
+    @GET
+    @Path("/withQuizzes")
+    List <CategoryDto> getCategoriesWithQuizzes();
 }

@@ -23,13 +23,13 @@ public class QuizEJB {
     @PersistenceContext
     private EntityManager em;
 
-    public Long createQuiz(String question, List<String> answers, String correctAnswer, String subSubCategoryName) {
+    public Long createQuiz(String question, List<String> answers, String correctAnswer, Long subSubCategoryId) {
         QuizEntity quiz = new QuizEntity();
         quiz.setQuestion(question);
         quiz.setAnswers(answers);
         quiz.setCorrectAnswer(correctAnswer);
 
-        SubSubCategory category = subSubCategoryEJB.findSubSubCategory(subSubCategoryName);
+        SubSubCategory category = subSubCategoryEJB.findSubSubCategory(subSubCategoryId);
         quiz.setSubSubCategory(category);
         em.persist(quiz);
         category.getQuizEntities().add(quiz);

@@ -24,15 +24,15 @@ public class SubSubCategoryEJB {
     @PersistenceContext
     private EntityManager em;
 
-    public String createSubSubCategory(String subSubCategoryName, String subCategoryName) {
-        SubCategory subCategory = subCategoryEJB.findSubCategory(subCategoryName);
+    public Long createSubSubCategory(String subSubCategoryName, Long subCategoryId) {
+        SubCategory subCategory = subCategoryEJB.findSubCategory(subCategoryId);
         SubSubCategory subSubCategory = new SubSubCategory();
         subSubCategory.setSubSubCategoryName(subSubCategoryName);
         subSubCategory.setSubCategory(subCategory);
         em.persist(subSubCategory);
 
         subCategory.getSubSubCategoryList().add(subSubCategory);
-        return subCategory.getSubCategoryName();
+        return subCategory.getId();
     }
 
     public List<QuizEntity> getQuizQuestions() {
@@ -45,8 +45,8 @@ public class SubSubCategoryEJB {
         return query.getResultList();
     }
 
-    public boolean deleteSubSubCategory(String categoryName){
-        SubSubCategory subSubCategory = em.find(SubSubCategory.class, categoryName);
+    public boolean deleteSubSubCategory(Long id){
+        SubSubCategory subSubCategory = em.find(SubSubCategory.class, id);
         if(subSubCategory != null){
             em.remove(subSubCategory);
             return true;
@@ -54,8 +54,14 @@ public class SubSubCategoryEJB {
         return false;
     }
 
-    public SubSubCategory findSubSubCategory(String categoryId) {
+    public SubSubCategory findSubSubCategory(Long categoryId) {
         SubSubCategory subSubCategory = em.find(SubSubCategory.class, categoryId);
         return subSubCategory;
+    }
+
+    public  List<SubSubCategory> getSubSubCategoriesWithQuizzes() {
+        Query query = em.createQuery("select s from SubSubCategory s WHERE" +
+                " s.quizEntities.size > 0");
+        return  query.getResultList();
     }
 }

@@ -15,6 +15,9 @@ import java.util.List;
 @ApiModel("A category")
 public class CategoryDto {
 
+    @ApiModelProperty("The id of the category")
+    public Long id;
+
     @ApiModelProperty("The name  of the category")
     public String categoryName;
 

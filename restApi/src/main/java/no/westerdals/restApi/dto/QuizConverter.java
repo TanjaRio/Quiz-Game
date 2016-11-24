@@ -24,11 +24,11 @@ public class QuizConverter {
         return quizDto;
     }
 
-    public static List<QuizDto> transform(List<QuizDto entities){
+    public static List<QuizDto> transform(List<QuizEntity> entities){
         Objects.requireNonNull(entities);
 
         return entities.stream()
-                .map(QuizDto::transform)
+                .map(QuizConverter::transform)
                 .collect(Collectors.toList());
     }
 }

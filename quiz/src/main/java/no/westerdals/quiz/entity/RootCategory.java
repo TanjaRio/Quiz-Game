@@ -1,8 +1,10 @@
 package no.westerdals.quiz.entity;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
+import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -14,7 +16,10 @@ import java.util.List;
  */
 @Entity
 public class RootCategory {
-    @Id
+    @Id @GeneratedValue
+    private Long id;
+
+    @NotNull
     private String categoryName;
 
     @OneToMany//(mappedBy = "rootCategory")
@@ -41,5 +46,13 @@ public class RootCategory {
 
     public void setSubCategoryList(List<SubCategory> subCategoryList) {
         this.subCategoryList = subCategoryList;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 }

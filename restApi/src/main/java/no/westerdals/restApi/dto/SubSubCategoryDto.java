@@ -14,6 +14,9 @@ import java.util.List;
  */
 @ApiModel("A subsubcategory")
 public class SubSubCategoryDto {
+    @ApiModelProperty("The id of the subsubcategory")
+    public Long id;
+
     @ApiModelProperty("The name  of the subsubcategory")
     public String subSubCategoryName;
 

@@ -19,13 +19,13 @@ public class RootCategoryEJB {
     @PersistenceContext
     private EntityManager em;
 
-    public String createRootCategory(String categoryName) {
+    public Long createRootCategory(String categoryName) {
         RootCategory rootCategory = new RootCategory(categoryName);
         em.persist(rootCategory);
-        return rootCategory.getCategoryName();
+        return rootCategory.getId();
     }
 
-    public RootCategory findRootCategory(String rootCategoryId) {
+    public RootCategory findRootCategory(Long rootCategoryId) {
         RootCategory rootCategory = em.find(RootCategory.class, rootCategoryId);
         return rootCategory;
     }
@@ -35,12 +35,18 @@ public class RootCategoryEJB {
         return query.getResultList();
     }
 
-    public boolean deleteRootCategory(String categoryName){
-        RootCategory rootCategory = em.find(RootCategory.class, categoryName);
+    public boolean deleteRootCategory(Long id){
+        RootCategory rootCategory = em.find(RootCategory.class, id);
         if(rootCategory != null){
             em.remove(rootCategory);
             return true;
         }
         return false;
+    }
+
+    public  List<RootCategory> getCategoriesWithQuizzes() {
+        Query query = em.createQuery("select r from RootCategory r JOIN r.subCategoryList s JOIN s.subSubCategoryList u WHERE" +
+                " u.quizEntities.size > 0");
+        return  query.getResultList();
     }
 }

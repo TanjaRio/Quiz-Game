@@ -58,17 +58,11 @@ public class QuizEJBTest {
     @Before
     @After
     public void cleanDatabase() {
-        quizEJB.getAll().stream().forEach(q -> quizEJB.deleteQuizEntity(q.getQuizId()));
-        assertEquals(0, quizEJB.getAll().size());
-
-        subSubCategoryEJB.getAll().stream().forEach(s -> subSubCategoryEJB.deleteSubSubCategory(s.getSubSubCategoryName()));
-        assertEquals(0, subSubCategoryEJB.getAll().size());
-
-        subCategoryEJB.getAll().stream().forEach(s -> subCategoryEJB.deleteSubCategory(s.getSubCategoryName()));
-        assertEquals(0, subSubCategoryEJB.getAll().size());
-
-        rootCategoryEJB.getAll().stream().forEach(s -> rootCategoryEJB.deleteRootCategory(s.getCategoryName()));
-        assertEquals(0, subSubCategoryEJB.getAll().size());
+        quizEJB.getAll().stream().forEach(c -> quizEJB.deleteQuizEntity(c.getQuizId()));
+        subSubCategoryEJB.getAll().stream().forEach(c -> subSubCategoryEJB.deleteSubSubCategory(c.getId()));
+        subCategoryEJB.getAll().stream().forEach(c -> subCategoryEJB.deleteSubCategory(c.getId()));
+        rootCategoryEJB.getAll().stream().forEach(c -> rootCategoryEJB.deleteRootCategory(c.getId()));
+        assertEquals(0, rootCategoryEJB.getAll().size());
     }
 
     /*public String createCategories(String rootCategory, String subCategory, String subSubCategory) {

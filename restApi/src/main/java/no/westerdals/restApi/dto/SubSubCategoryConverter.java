@@ -23,11 +23,11 @@ public class SubSubCategoryConverter {
         return dto;
     }
 
-    public static List<CategoryDto> transform(List<CategoryDto> entities){
+    public static List<SubSubCategoryDto> transform(List<SubSubCategory> entities){
         Objects.requireNonNull(entities);
 
         return entities.stream()
-                .map(CategoryDto::transform)
+                .map(SubSubCategoryConverter::transform)
                 .collect(Collectors.toList());
     }
 }

@@ -24,18 +24,18 @@ public class SubCategoryEJB {
     @PersistenceContext
     private EntityManager em;
 
-    public String createSubCategory(String categoryName, String rootCategoryName) {
-        RootCategory rootCategory = rootCategoryEJB.findRootCategory(rootCategoryName);
+    public Long createSubCategory(String categoryName, Long rootCategoryId) {
+        RootCategory rootCategory = rootCategoryEJB.findRootCategory(rootCategoryId);
         SubCategory subCategory = new SubCategory();
         subCategory.setSubCategoryName(categoryName);
         subCategory.setRootCategory(rootCategory);
         em.persist(subCategory);
         rootCategory.getSubCategoryList().add(subCategory);
-        return subCategory.getSubCategoryName();
+        return subCategory.getId();
     }
 
-    public SubCategory findSubCategory(String subCategoryName) {
-        SubCategory subCategory = em.find(SubCategory.class, subCategoryName);
+    public SubCategory findSubCategory(Long subCategoryId) {
+        SubCategory subCategory = em.find(SubCategory.class, subCategoryId);
         return subCategory;
     }
 
@@ -44,8 +44,8 @@ public class SubCategoryEJB {
         return query.getResultList();
     }
 
-    public boolean deleteSubCategory(String categoryName){
-        SubCategory subCategory = em.find(SubCategory.class, categoryName);
+    public boolean deleteSubCategory(Long id){
+        SubCategory subCategory = em.find(SubCategory.class, id);
         if(subCategory != null){
             em.remove(subCategory);
             return true;

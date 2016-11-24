@@ -21,15 +21,11 @@ public class CategoryConverter {
         return dto;
     }
 
-    public static List<CategoryDto> transform(List<CategoryDto> entities){
+    public static List<CategoryDto> transform(List<RootCategory> entities){
         Objects.requireNonNull(entities);
 
-        for (int i = 0; i < entities.size(); i++) {
-            CategoryConverter.transform(entities.get(i));
-        }
-
         return entities.stream()
-                .map(CategoryDto::transform)
+                .map(CategoryConverter::transform)
                 .collect(Collectors.toList());
     }
 }

@@ -15,6 +15,10 @@ import java.util.List;
  */
 @ApiModel("A subcategory")
 public class SubCategoryDto {
+
+    @ApiModelProperty("The id of the subcategory")
+    public Long id;
+
     @ApiModelProperty("The name  of the category")
     public String subCategoryName;
 
@@ -32,4 +36,5 @@ public class SubCategoryDto {
         this.rootCategory = rootCategory;
         this.subSubCategoryList = subSubCategoryList;
     }
+
 }
